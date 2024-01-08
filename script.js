@@ -12,17 +12,10 @@ if(p1>p2){
     document.querySelector("h1").textContent = "draw";
 }
 
-for(var i = 1; i<=6; i++){
-if(p1==i){
-    document.querySelector(".img1").setAttribute("src","./images/dice"+p1+".png");  
-}
-}
 
-for(var i = 1; i<=6; i++){
-    if(p2==i){
-        document.querySelector(".img2").setAttribute("src","./images/dice"+p2+".png");  
-    }
-    }
+    document.querySelector(".img1").setAttribute("src","./images/dice"+p1+".png");  
+    
+    document.querySelector(".img2").setAttribute("src","./images/dice"+p2+".png"); 
 
 
 
